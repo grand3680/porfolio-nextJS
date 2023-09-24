@@ -1,7 +1,8 @@
 //import '../styles/globals.css';
 import Layout from '@/components/Layout'
 import Head  from 'next/head';
-// import '../styles/body/_body.scss'
+import '../styles/body/body.scss'
+import '../styles/body/reset.scss'
 
 const porfolio = ({ Component, pageProps }) => (
     <Layout>

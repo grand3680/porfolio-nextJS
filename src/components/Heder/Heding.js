@@ -2,13 +2,14 @@
 import styles from './Styles/base.module.scss' 
 import NavBar from '@/components/navigation/NavBar';
 
+
 const Heading = () => (
    <> 
-    <div class="particle-background">
-        <canvas class="canvas_particle-background"></canvas>
+    <div className={styles.particle_background}>
+        <canvas className={styles.canvas_particle_background}></canvas>
     </div>
 
-    <div class="container">
+    <div className={styles.container}>
       <NavBar/>
     </div>
    </>
