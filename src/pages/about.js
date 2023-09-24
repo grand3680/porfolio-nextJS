@@ -1,8 +1,5 @@
-// import aboutPage from '@/components/about/about';
 import Head from "next/head";
-
-// import aboutPage from "../components/about/about";
-import About from "../components/aboutPage/about";
+import About from '@/components/aboutPage/About';
 
 const AboutPage = () => {
     return (
@@ -12,7 +9,6 @@ const AboutPage = () => {
         </Head>
 
         <About/>
-        <h1>not page</h1>
     </>
     )
 }

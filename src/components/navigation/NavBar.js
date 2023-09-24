@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import {navigations} from './links'
-// import styles from '../../styles/Main.module.main.scss'
 
 // import '../../styles/globals.scss';
 import styles from './styles/navigations.module.scss'
+// import menu from './menu'
 
 const NavBar = () => {
     return (
@@ -16,7 +16,7 @@ const NavBar = () => {
                     </a>
                 </span> */}
                 <ul className={styles.header__navigation}>
-                    {navigations.shift().map(({id, title, path}) => (
+                    {navigations.map(({id, title, path}) => (
                         <li>
                             <Link key={id} href={path}>{title}</Link>
                         </li> 
@@ -27,7 +27,7 @@ const NavBar = () => {
                     <span></span>
                     <span></span>
                 </button>
-            </nav>
+            </nav>      
             </header>
         </>
     )
