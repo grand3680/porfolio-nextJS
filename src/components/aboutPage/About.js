@@ -25,7 +25,8 @@ const About = () => {
                 alt=""/>
             </div>
         </section>
-    </>)
+    </>
+    )
 }
 
 
