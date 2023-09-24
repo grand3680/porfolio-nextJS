@@ -6,7 +6,9 @@ import '../styles/body/reset.scss'
 
 const porfolio = ({ Component, pageProps }) => (
     <Layout>
-        <Head></Head>
+        <Head>
+            <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" />
+        </Head>
         <Component {...pageProps} />        
     </Layout>
 );
