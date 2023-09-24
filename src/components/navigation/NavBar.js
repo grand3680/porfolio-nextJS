@@ -10,11 +10,11 @@ const NavBar = () => {
         <>
             <header className={styles.header}>
             <nav>
-                {/* <span className={styles.header__logo}>
-                    <a href="{% url 'home' %}">
+                <span className={styles.header__logo}>
+                    <Link href='/'>
                         <h1>.logo</h1>
-                    </a>
-                </span> */}
+                    </Link>
+                </span>
                 <ul className={styles.header__navigation}>
                     {navigations.map(({id, title, path}) => (
                         <li>

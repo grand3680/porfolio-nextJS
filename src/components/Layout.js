@@ -1,5 +1,5 @@
 import Heading from '@/components/Heder/Heding';
-import NavBar from '@/components/navigation/NavBar';
+import container from '@/styles/container.module.scss';
 
 // import aboutPage from '@/components/about/';
 
@@ -7,10 +7,8 @@ const Layout = ({ children }) => {
     return (
         <>
             <Heading/>
-            {/* <NavBar/> */}
 
-
-            <div> 
+            <div className={container.container}> 
                 {children}
             </div>
 
