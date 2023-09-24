@@ -1,0 +1,31 @@
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    column-gap: 20px;
+    row-gap: 80px;
+    margin-top: 25px !important;
+}
+
+.skills_li {
+    list-style: none;
+}
+
+.skills_ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    gap: 10px;
+}
+
+
+.skills_category {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width : 770px ) {
+    .skills {
+        grid-template-columns: auto;
+        row-gap: 25px;
+    }
+}
