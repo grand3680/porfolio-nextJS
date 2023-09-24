@@ -1,0 +1,15 @@
+.content_information {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.about_text {
+    font-size: 20px;
+    p {
+        margin-top: 15px;      
+        
+        &:nth-child(1) {
+            margin-top: 20px;            
+        } 
+    }
+}

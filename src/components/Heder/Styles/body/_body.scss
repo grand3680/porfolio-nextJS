@@ -1,0 +1,57 @@
+$color-dark: #252A30;
+$color-gray: #253861;
+$color-opacity: #f6f8f4;
+
+body {
+    background-color: $color-dark;
+    color: white;
+}
+
+
+::-webkit-scrollbar {
+    width: 14px; 
+    height: 8px; 
+    background-color: #11213F;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $color-gray;
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px #41554d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: $color-gray;
+}
+
+
+::-webkit-scrollbar-button:vertical:start:decrement {
+    background: linear-gradient(120deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(240deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(0deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: $color-opacity;
+}
+
+::-webkit-scrollbar-button:vertical:end:increment {
+    background:
+        linear-gradient(300deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(60deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(180deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: $color-opacity;
+}
+
+::-webkit-scrollbar-button:horizontal:start:decrement {
+    background:
+        linear-gradient(30deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(150deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(270deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: $color-opacity;
+}
+
+::-webkit-scrollbar-button:horizontal:end:increment {
+    background:
+        linear-gradient(210deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(330deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(90deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: $color-opacity;
+}

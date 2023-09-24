@@ -3,30 +3,32 @@ import {navigations} from './links'
 // import styles from '../../styles/Main.module.main.scss'
 
 // import '../../styles/globals.scss';
-import staleses from './navStyles.module.scss'
+import styles from './styles/navigations.module.scss'
 
 const NavBar = () => {
     return (
         <>
-            <h1 className={ staleses.navigations }>hwe</h1>        
+            <header className={styles.header}>
             <nav>
-
-                <ul>
-                    {navigations.map(({id, title, path}) => (
-                        
+                {/* <span className={styles.header__logo}>
+                    <a href="{% url 'home' %}">
+                        <h1>.logo</h1>
+                    </a>
+                </span> */}
+                <ul className={styles.header__navigation}>
+                    {navigations.shift().map(({id, title, path}) => (
                         <li>
                             <Link key={id} href={path}>{title}</Link>
                         </li> 
                     ))}
-
-
                 </ul>
-                <button>
+                <button className={styles.header__navigation_menu}>
                     <span></span>
                     <span></span>
                     <span></span>
                 </button>
             </nav>
+            </header>
         </>
     )
 }

@@ -1,0 +1,49 @@
+$fn-size_title: 25px;
+
+.information {
+    background-color: rgb(15, 31, 60, 0.5);
+    padding: 15px;
+}
+
+.section_information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_information {
+    display: block !important;
+    font-size: $fn-size_title;    
+    min-width: 100px;
+    min-height: 35px;
+
+    &::after {
+        content: "|";
+        width: $fn-size_title;
+        height: $fn-size_title;
+        animation: blinkingLine 1s infinite;
+    }
+}
+
+@keyframes blinkingLine {
+    0%   {opacity: 0;}
+    50%  {opacity: 100;}
+    100% {opacity: 0;}
+}
+
+.title_image {
+    display: block !important;
+    width: 300px;
+    height: 350px;
+}
+
+@media screen and (max-width: 700px) {
+    .section_information {
+        display: block;
+    }
+
+    .title_image {
+        display: flex !important;
+        text-align: start;
+        margin-top: 10px;
+    }
+}
