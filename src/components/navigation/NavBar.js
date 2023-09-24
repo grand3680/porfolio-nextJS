@@ -6,7 +6,7 @@ import {navigations} from './links'
 
 const NavBar = () => {
     return (
-        <nav className={styles.navigations}>
+        <nav>
 
             <ul>
                 {navigations.map(({id, title, path}) => (
