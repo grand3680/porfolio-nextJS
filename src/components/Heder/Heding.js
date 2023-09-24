@@ -4,7 +4,7 @@ import NavBar from '@/components/navigation/NavBar';
 
 
 const Heading = () => (
-   <> 
+   <div className="styles.container"> 
     <div className={styles.particle_background}>
         <canvas className={styles.canvas_particle_background}></canvas>
     </div>
@@ -12,7 +12,7 @@ const Heading = () => (
     <div className={styles.container}>
       <NavBar/>
     </div>
-   </>
+   </div>
 )
 
 export default Heading;
