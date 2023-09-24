@@ -1,5 +1,5 @@
-import Heading from './Heding';
-import NavBar from './navigation/NavBar';
+import Heading from '@/components/Heding';
+import NavBar from '@/components/navigation/NavBar';
 
 const Layout = ({ children }) => {
     return (
