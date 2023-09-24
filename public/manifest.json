@@ -1,0 +1,16 @@
+{
+    "short_name": "pofolio",
+    "name": "pofolio-NextJS",
+    "icons": [
+      {
+        "src": "images/screen.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "orientation": "landscape",
+    "start_url": "./",
+    "background_color": "#333333",
+    "theme_color": "#333333",
+    "display": "standalone"
+  }
