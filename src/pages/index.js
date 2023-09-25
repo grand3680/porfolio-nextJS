@@ -1,5 +1,5 @@
-// import '@/styles/globals.scss'
 import Head from "next/head";
+import HomePage from '@/components/homePage/homePage';
 
 const RootLayout = () => (
     <>
@@ -7,7 +7,7 @@ const RootLayout = () => (
             <title>home</title>
         </Head>
         
-        <h1>somee</h1>    
+        <HomePage/>
     </>
 
 )
