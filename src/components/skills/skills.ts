@@ -1,4 +1,9 @@
-const someTestSkill = [
+interface skillType {
+    category : string,
+    skills : string[]                 
+}
+
+const someTestSkill : skillType[] = [
     {
         category: 'Collectors',
         skills: ['webpack']

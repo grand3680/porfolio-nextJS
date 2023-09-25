@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import {navigations} from './links'
+import navigations from './links'
 import { useState } from 'react';
 
 // import '../../styles/globals.scss';
