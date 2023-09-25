@@ -1,6 +1,6 @@
 import styles from './styles/home.module.scss'
 
-const homePage = () => {
+const home = () => {
     return ( 
     <> 
         <section className={styles.HomePg}>
@@ -17,4 +17,4 @@ const homePage = () => {
 }
 
 
-export default homePage;
+export default home;

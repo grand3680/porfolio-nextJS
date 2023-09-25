@@ -2,7 +2,7 @@ import styles from './styles/about.module.scss'
 import Image from 'next/image'
 import profilePic from '@/images/rudeface.png'
 
-const About = () => {
+const about = () => {
     return ( 
     <> 
         <section className={styles.information}>
@@ -30,4 +30,4 @@ const About = () => {
 }
 
 
-export default About;
+export default about;
