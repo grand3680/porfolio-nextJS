@@ -1,10 +1,8 @@
+import { useState } from 'react';
 import Link from 'next/link'
 import navigations from './links'
-import { useState } from 'react';
-
-// import '../../styles/globals.scss';
 import styles from './styles/navigations.module.scss'
-// import menu from './menu'
+
 
 const NavBar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
