@@ -1,4 +1,3 @@
-//import '../styles/globals.css';
 import Layout from '@/components/Layout'
 import Head  from 'next/head';
 import '../styles/body/body.scss'
