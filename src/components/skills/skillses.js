@@ -2,7 +2,7 @@
 import styles from './styles/skills.module.scss';
 import someTestSkill from './skills';
 
-const Skilses = () => (
+const skills = () => (
   <>
     <ul className={styles.skills}>
         {someTestSkill.map(({category, skills}) => 
@@ -22,4 +22,4 @@ const Skilses = () => (
 
 )
 
-export default Skilses;
+export default skills;
