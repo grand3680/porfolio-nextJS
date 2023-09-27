@@ -1,4 +1,4 @@
-import configJson from '../ParticleConfig';
+import configJson from './ParticleConfig';
 
 export type TypeUp = (_: any) => void
 export type FunctionArgs = (() => void)[];

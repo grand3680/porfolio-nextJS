@@ -1,4 +1,4 @@
-import configJson from '../ParticleConfig';
+import configJson from './ParticleConfig';
 import { ParticleFunction, TypeUp, FunctionArgs } from './ParticleFunction';
 
 export class ParticleBackground {
