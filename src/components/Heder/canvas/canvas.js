@@ -1,18 +1,20 @@
-import { useRef, useEffect } from 'react';
+import { useEffect, useRef } from 'react';
+import { ParticleBackground } from './elements/ParticleBackground';
 
-const Canvas = (props) => {
-    const canvasRef = useRef(null)
 
-    useEffect(() => {
-        const canvas = canvasRef.current
-        const context = canvas.getContext('2d')
-        //Our first draw
-        context.fillStyle = '#ffff11'
-        // context.fillRect(0, 0, context.canvas.width, context.canvas.height)
-        context.fillRect(0, 0, 10, 10)
-    }, [])
-  
-  return <canvas ref={canvasRef} {...props}/>
-}
+const CanvasParticleBackground = (props) => {
+  const canvasRef = useRef(null);
 
-export default Canvas
+  useEffect(() => {
+    const canvas = canvasRef.current;
+
+    if (canvas) {
+      ParticleBackground.makeCanvas(canvas);
+      ParticleBackground.update();
+    }
+  }, []);
+
+  return <canvas ref={canvasRef} id="canvas_particle" {...props}/>
+};
+
+export default CanvasParticleBackground
