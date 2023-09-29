@@ -1,4 +1,3 @@
-// import styles from '../styles/Main.module.main.scss'
 import styles from './styles/base.module.scss' 
 import NavBar from '@/components/navigation/NavBar';
 import container from '@/styles/container.module.scss';

@@ -20,7 +20,9 @@ const about = () => {
                         'I know - ',
                         'HTML/css',
                         'JS ( THREE.JS, jquery )',
-                        'SCSS and SASS  ❤️ ( I used on this project )'
+                        'SCSS and SASS  ❤️ ( I used on this project )',
+                        'NextJs with React',
+                        '...'
                     ],
                     id : 1,
                     delay : 125,
