@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { ParticleBackground } from './elements/ParticleBackground';
 
 
-export const Canvas = (props) => {
+export const Canvas = ({className}) => {
   const canvasRef = useRef(null);
 
   useEffect(() => {
@@ -14,5 +14,5 @@ export const Canvas = (props) => {
     }
   }, []);
 
-  return <canvas ref={canvasRef} id="canvas_particle" {...props}/>
+  return <canvas ref={canvasRef}  className={className}/>
 };
