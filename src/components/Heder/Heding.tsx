@@ -2,8 +2,9 @@ import styles from './styles/base.module.scss'
 import NavBar from '@/components/navigation/NavBar';
 import container from '@/styles/container.module.scss';
 import  { Canvas } from './canvas/canvas';
+import { FC } from 'react';
 
-const Heading = () => {
+const Heading : FC = () => {
   return (<>
    <div className={container.container}> 
     <div className={styles.particle_background}>

@@ -1,10 +1,10 @@
 import styles from './styles/about.module.scss';
 import Image from 'next/image';
 import profilePic from '@/images/rudeface.png';
-import { useRef, useLayoutEffect} from 'react';
+import { useRef, useLayoutEffect, FC } from 'react';
 import TypingText from './typing';
 
-const about = () => {
+const about : FC = () => {
     const aboutRef = useRef(null);
 
     useLayoutEffect(() => {

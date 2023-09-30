@@ -1,8 +1,8 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, FC } from 'react';
 import { ParticleBackground } from './elements/ParticleBackground';
 
 
-export const Canvas = ({className}) => {
+export const Canvas : FC<{className : string}> = ({className}) => {
   const canvasRef = useRef(null);
 
   useEffect(() => {

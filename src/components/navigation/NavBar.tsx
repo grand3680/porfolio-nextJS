@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import { useState, FC } from 'react';
 import Link from 'next/link'
 import navigations from './links'
 import styles from './styles/navigations.module.scss'
 
 
-const NavBar = () => {
+const NavBar : FC = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const handleMenuToggle = () => setMenuOpen(!menuOpen);
 

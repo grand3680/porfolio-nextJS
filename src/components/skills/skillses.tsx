@@ -1,7 +1,8 @@
 import styles from './styles/skills.module.scss';
 import someTestSkill from './skills';
+import { FC } from 'react';
 
-const skills = () => (
+const skills : FC = () => (
   <>
     <ul className={styles.skills}>
         {someTestSkill.map(({category, skills}) => 
