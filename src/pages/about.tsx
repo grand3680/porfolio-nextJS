@@ -1,7 +1,8 @@
 import Head from "next/head";
 import About from '@/components/aboutPage/About';
+import { FC } from 'react';
 
-const AboutPage = () => {
+const AboutPage : FC = () => {
     return (
     <>    
         <Head>

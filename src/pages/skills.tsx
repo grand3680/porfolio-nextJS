@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Skilses from '@/components/skills/skillses';
+import { FC } from 'react';
 
-const Skills = () => {
+const Skills: FC = () => {
     return (
     <>    
         <Head>
