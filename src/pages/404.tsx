@@ -1,6 +1,6 @@
 import style from '@/styles/404.module.scss';
 import Head from 'next/head';
-import image from '@/images/404.ico';
+import icon from '@/images/404.ico';
 import { FC } from 'react';
 
 
@@ -9,7 +9,7 @@ const Custom404 : FC = () => {
         <> 
             <Head>
                 <title>404</title>
-                <link rel="icon" href={ image.toString() }/>
+                <link rel="icon" href={ icon.src }/>
             </Head>
 
             <div className={style.Error_404}>

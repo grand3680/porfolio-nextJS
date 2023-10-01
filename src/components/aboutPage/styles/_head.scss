@@ -32,11 +32,11 @@ $fn-size_title: 25px;
 
 .title_image {
     display: block !important;
-    width: 300px;
+    width: 350px;
     height: 350px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 780px) {
     .section_information {
         display: block;
     }

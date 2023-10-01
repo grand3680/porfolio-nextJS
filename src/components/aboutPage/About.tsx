@@ -1,6 +1,6 @@
 import styles from './styles/about.module.scss';
 import Image from 'next/image';
-import profilePic from '@/images/rudeface.png';
+import profilePic from '@/images/ava.png';
 import { useRef, useLayoutEffect, FC } from 'react';
 import TypingText from './typing';
 

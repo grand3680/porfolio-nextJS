@@ -14,12 +14,11 @@ const skills : FC = () => (
                             <li className={styles.skills_description}>{skill}</li>
                         )) 
                     : ''}
-                </ul>         
-            </li>        
+                </ul>
+            </li>
         )}
     </ul>
   </>
-
 )
 
 export default skills;
