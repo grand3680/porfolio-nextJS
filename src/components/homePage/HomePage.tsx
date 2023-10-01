@@ -1,11 +1,7 @@
 import styles from './styles/home.module.scss';
 import { MinecraftFont } from '@/fonts';
-
 import { FC } from 'react';
  
-// const fot = font;
-// Font files can be colocated inside of `pages`
-
 const home : FC = () => {
     return ( 
     <> 
@@ -21,6 +17,5 @@ const home : FC = () => {
     </>
     )
 }
-
 
 export default home;
