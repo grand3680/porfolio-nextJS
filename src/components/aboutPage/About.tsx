@@ -14,7 +14,7 @@ const about : FC = () => {
             new TypingText (
                 AboutElement,
                 {
-                    textContent : [
+                    txtContent : [
                         'hey',
                         'I"m proggrammer',
                         'I know - ',
@@ -29,7 +29,6 @@ const about : FC = () => {
                     backDelay : 25,
                 }
             );
-
         }
     }, []);
 
