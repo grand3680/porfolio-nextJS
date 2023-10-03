@@ -47,5 +47,4 @@ const someTestSkill : skillType[] = [
 
 ]
 
-
 export default someTestSkill;
