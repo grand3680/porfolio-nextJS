@@ -1,8 +1,15 @@
+interface optionsType {
+  "id"?       : number,
+  "delay"?    : number,
+  "backDelay"?: number,
+
+}
+
 class TypingText {
-    constructor(selectEl, options) {
+    constructor(selectEl : HTMLElement, options : optionsType) {
       this.options = options;
       this.content = this.options.textContent;
-      this.el$ = selectEl;
+      this.el$   = selectEl;
       this.textArr = this.content;
       this.backAnimate = false;
   
